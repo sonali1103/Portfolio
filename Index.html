@@ -15,7 +15,7 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
 
-	
+
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sonali Portfolio</title>
@@ -41,7 +41,7 @@
 			<li><a href="#portfolio">Projects</a></li>
 		</ul>
 
-		<a href="#contactForm" class="button-wrapper">
+		<a href="#contactme" class="button-wrapper">
 			<button class="btn contact-btn">Contact</button>
 		</a>
 
@@ -63,7 +63,7 @@
 				<div class="col-twelve">
  
 					<h5>Hey, There.</h5>
-					 <h1 style="font-size: 4rem;">I am Sonali Vedaraju<span style="color: #186f78;">.</span></h1>
+					 <h1 style="font-size: 4rem;">I am Sonali Vedaraju<span style="color: lightgray;">.</span></h1>
 					
 					 <p class="intro-position">
 						
@@ -87,13 +87,14 @@
 	
 	<!--   === About Image Starts ===   -->
 	<div class="about-image">
-		<img src="images/abt-me.jpg">
+		<img src="images/img.jpeg">
 		<div class="social-media">
 			<a href="https://github.com/sonali1103?tab=repositories" target="_blank"> <i class="fa-brands fa-github"></i></a>
 			<a href="https://www.linkedin.com/in/sonalivedaraju/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
 			<a href="https://www.hackerrank.com/profile/sonali_ved11" target="_blank"><i class="fab fa-hackerrank"></i></a>
 			<a href="https://leetcode.com/sonali1103/" target="_blank"> <i class="fa fa-code" aria-hidden="true"></i></a>
 			<i class="cib-leetcode"></i>
+			
 
 		</div>
 	</div>
@@ -114,7 +115,10 @@
 				 Whether it's optimizing algorithms or steering teams towards project goals, 
 				 my approach is characterized by a <span style="font-weight: bold;"> blend of technical knowledge, time management, 
 				 and effective leadership.</span></p>
-		<button class="btn download-btn">Download CV</button>
+		<div class="btns">
+			<a href="./Docs/Sonali_Resume.pdf" target="_blank" download="Sonali_Resume"><button class="btn download-btn">Download CV</button></a>
+			<a href="./Docs/Sonali_Resume.pdf" target="_blank" download="Sonali_Resume"><button class="btn download-btn">Download Resume</button></a>
+		</div>
 	</div>
 	<!--   === About Description Ends ===   -->
 
@@ -144,8 +148,11 @@
 				<li>Jenkins</li>
 				<li>Jira</li>
 				<li>TFS</li>
+				<li>Docker</li>
 				<li>Microsoft Azure</li>
-				<li>Github</li>												
+				<li>Github</li>	
+				<li>Postman</li>	
+				<li>Jest Testing Tool</li>										
 			</p>
 		</div>
 		
@@ -251,22 +258,22 @@
 				<div class="box">
 					<h4>August 2023 - May 2024</h4>
 					<h3>Graduate Teaching Assistant</h3>
-					<p>Involved in delivering the curriculum, evaluating assignments, 
+					<p>Involved in evaluating assignments 
 						and providing guidance to students navigating intricate software 
-						engineering concepts. This experience refined my skill in 
-						articulating technical ideas, cultivating a collaborative learning atmosphere.</p>
+						engineering concepts, thereby honing my skills in 
+						effective communication and cultivating a collaborative learning atmosphere.</p>
 					<h5 class="vanue">University of Texas at Arlington</h5>
 				</div>
 
 				<div class="box">
 					<h4>December 2020 - July 2022</h4>
 					<h3>Software Engineer</h3>
-					<p>VideoFlo Application - Integrated React's state management for real-time updates and notifications 
-						in the VideoKYC process. Implemented various optimizations,
-						 including asynchronous processing with Node.js, JWT for secure logins, and 
-						 leveraged React hooks to boost application responsiveness. Additionally, 
-						 utilized WebRTC for low-latency,high-quality video streams, and employed 
-						 Jest testing tools for testing.</p>
+					<p>VideoFlo Application - 
+						Enhanced VideoFlo Application by integrating React's state management 
+						for real-time updates and notifications in the VideoKYC process. Implemented 
+						optimizations like asynchronous processing with Node.js, JWT for secure 
+						logins, and utilized React hooks for improved responsiveness, with comprehensive 
+						testing using Jest.</p>
 					<h5 class="vanue">Integra MicroSystems., India</h5>
 				</div>
 
@@ -274,11 +281,12 @@
 					<h4>November 2018 - November 2020</h4>
 					<h3>Software Development Engineer</h3>
 					<p>
-						Cruise Booking Website - Independently resolved issues and provided leadership within the team
-						Worked on diverse aspects of the cruise booking application, 
-						including UI enhancements and API integrations, ensuring timely completion. 
-						Revamped the Price Engine application using .NET's Task Parallel Library.Restructured the booking database based on normalization principles, 
-						improving data integrity and system performance. 
+						Cruise Booking Website - 
+						Addressed and resolved issues independently while demonstrating 
+						leadership within the team. Contributed to various aspects of the cruise booking 
+						application, such as improving UI, developing and integrating APIs for new features, 
+						database normalization to improve application performance.
+						
 					</p>
 					<h5 class="vanue">TravTech Inc., India</h5>
 				</div>
@@ -293,7 +301,10 @@
 <!--   *** Resume Section Ends ***   -->
 
 <!--   *** Portfolio Section Starts ***   -->
-<section class="portfolio reusable" id="portfolio">
+<section class="portfolio reusable" style="padding: revert-layer;
+padding-top: 80px;
+padding-right: 5px;
+padding-left: 5px;" id="portfolio">
 	
 	<!--   === Headings Text Starts ===   -->
 	<header class="headings">
@@ -302,67 +313,177 @@
 	<!--   === Headings Text Ends ===   -->
 
 	<main class="mainContainer">
-		
-		<!--   === Gallery Starts ===   -->
-		<div class="gallery">
-			
-			<!--   === Item1 Starts ===   -->
-			<div class="item design">
-				<img src="images/design1.jpg">
-				<div class="overlay">
-					<a href="images/design1.jpg">VIEW MORE</a>
+		<div class="blog-wrapper">
+		<div class="blog-card">
+			<div style="background-color: #f6f9fe;">
+			<div class="card-details">MY NETWORK</div>
+			<div class="card-img"><img src="images/p1.jpeg">
+				<div>
+					<p>
+						<li>Tech Usage : </li>
+						<li> MongoDB</li>
+						<li> ExpressjS</li>
+						<li>ReactJs</li>
+						<li>Redux</li>
+						<li>NodeJs</li>
+					</p>
+				</div>	
+			</div>	
+			</div>	
+			<div class="card-text">
+				<p>MyNetwork application is a dynamic platform used to connect users worldwide.
+					It provides a seamless and engaging experience for users to share, 
+					 connect, and interact effortlessly.</p></div>
+			<a href="https://github.com/sonali1103/MyNetwork" target="_blank">
+				<div class="read-more" style="margin-top: 42px;">View
+				  <i class="fa-brands fa-github"></i> 
 				</div>
-			</div>
-			<!--   === Item1 Ends ===   -->
-
-			<!--   === Item2 Starts ===   -->
-			<div class="item design">
-				<img src="images/design2.jpg">
-				<div class="overlay">
-					<a href="images/design2.jpg">VIEW MORE</a>
-				</div>
-			</div>
-			<!--   === Item2 Ends ===   -->
-
-			<!--   === Item3 Starts ===   -->
-			<div class="item code">
-				<img src="images/website1.jpg">
-				<div class="overlay">
-					<a href="images/website1.jpg">VIEW MORE</a>
-				</div>
-			</div>
-			<!--   === Item3 Ends ===   -->
-
-			<!--   === Item4 Starts ===   -->
-			<div class="item code">
-				<img src="images/website2.jpg">
-				<div class="overlay">
-					<a href="images/website2.jpg">VIEW MORE</a>
-				</div>
-			</div>
-			<!--   === Item4 Ends ===   -->
-
-			<!--   === Item5 Starts ===   -->
-			<div class="item code">
-				<img src="images/website3.jpg">
-				<div>Housing Application</div>
-				<div class="overlay">
-					<a href="images/website3.jpg">VIEW MORE</a>
-				</div>
-			</div>
-			<!--   === Item5 Ends ===   -->
-
-			<!--   === Item6 Starts ===   -->
-			<div class="item logo">
-				<img src="images/logo1.jpg">
-				<div class="overlay">
-					<a href="images/logo1.jpg">VIEW MORE</a>
-				</div>
-			</div>
-			<!--   === Item6 Ends ===   -->
-
+			</a>
 		</div>
-		<!--   === Gallery Ends ===   -->
+
+		<div class="blog-card">
+			<div style="background-color: #f6f9fe;">
+			<div class="card-details">CAR AUCTION WEBSITE</div>
+			<div class="card-img"><img src="images/p2.jpeg">
+				<div>
+					<p>
+						<li>Tech Usage : </li>
+						<li>.NET</li>
+						<li>NextJs</li>
+						<li>Microservices</li>
+						<li>RabbitMQ</li>
+						<li>Docker</li>
+						<li>Postgres</li>
+					</p>
+				</div>	
+			</div>
+			</div>
+			<div class="card-text"><p>
+				Car auction website that provides a user-friendly platform for 
+				buying and selling vehicles. The website features real-time bidding, 
+				detailed vehicle listings with images, and secure payment integration, offering a 
+				transparent experience for both buyers and sellers.
+			</p></div>
+			<a href="https://github.com/sonali1103/Auctionsite" target="_blank">
+				<div class="read-more">View
+				  <i class="fa-brands fa-github"></i> 
+				</div>
+			</a>
+		</div>
+
+		<div class="blog-card">
+			<div style="background-color: #f6f9fe;">
+			<div class="card-details">STUDENT MANAGEMENT SYSTEM</div>
+			<div class="card-img"><img src="images/p6.svg">
+				<div>
+					<p>
+						<li>Tech Usage : </li>
+						<li> Java</li>
+						<li> SpringBoot</li>
+						<li>OAuth 2.0</li>
+						<li>RestAPI</li>
+					</p>
+				</div>	
+			</div>
+			</div>
+			<div class="card-text">
+				<p>
+					The Student Management Application is a comprehensive system designed to simplify
+					various aspects of student information. 
+					Built using Java and Spring Boot, this application offers a range of features to assist
+					 educational institutions in efficiently managing student-related tasks.
+			</p></div>
+			<a href="https://github.com/sonali1103/studentManagement-backend-springboot" target="_blank">
+				<div class="read-more">View
+				  <i class="fa-brands fa-github"></i> 
+				</div>
+			</a>
+		</div>
+
+		<div class="blog-card">
+			<div style="background-color: #f6f9fe;">
+			<div class="card-details">SORTING-VISUALIZER</div>
+			<div class="card-img"><img src="images/p5.png">
+				<div>
+					<p>
+						<li>Tech Usage : </li>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>Javascript</li>
+						<li>Sorting Algorithms</li>
+					</p>
+				</div>	
+			</div>
+			</div>
+			<div class="card-text"><p>
+				A comprehensive sorting algorithms visualizer project showcases various sorting techniques
+				 like QUICK SORT, BUBBLE SORT, SELECTION SORT, INSERTION SORT and MERGE SORT. It allows users to interactively observe 
+				 and comprehend the sorting process.
+			</p></div>
+			<a href="https://github.com/sonali1103/View-Sorting-Algorithms" target="_blank">
+				<div class="read-more">View
+				  <i class="fa-brands fa-github"></i> 
+				</div>
+			</a>
+		</div>
+
+		<div class="blog-card">
+			<div style="background-color: #f6f9fe;">
+			<div class="card-details">SUDOKU SOLVER</div>
+			<div class="card-img"><img src="images/p7.webp">
+				<div>
+					<p>
+						<li>Tech Usage : </li>
+						<li> Python</li>
+						<li> Backtracking Algorithm</li>
+						<li>Tkinter-UI</li>
+					</p>
+				</div>	
+			</div>
+			</div>
+			<div class="card-text">
+				<p>
+					This is a simple Sudoku solver application implemented in Python using the 
+					backtracking algorithm and optimization using naked pairs. The application 
+					includes a Tkinter-based user interface for solving Sudoku puzzles and 
+					generating random puzzles.
+				</p>
+			</div>
+			<a href="https://github.com/sonali1103/SudokuSolver" target="_blank">
+				<div class="read-more">View
+				  <i class="fa-brands fa-github"></i> 
+				</div>
+			</a>
+		</div>
+
+		<div class="blog-card">		
+			<div style="background-color: #f6f9fe;">	
+			<div class="card-details">WEATHER FORECAST APPLICATION</div>
+			<div class="card-img"><img src="images/p3.avif">
+				<div>
+					<p>
+						<li> Tech Usage : </li>
+						<li> NodeJs</li>
+						<li>WebAPI</li>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>Bootstrap</li>
+					</p>
+				</div>	
+				</div>
+			</div>
+			<div class="card-text"><p>
+				This weather app boasts real-time data updates, a user-friendly interface, and
+				 seamless API integration through Node.js and JSON data. Users can instantly access
+				  accurate weather information
+			</p></div>
+			<a href="https://github.com/sonali1103/weather-website" target="_blank">
+				<div class="read-more" style="margin-top: 42px;">View
+				  <i class="fa-brands fa-github"></i> 
+				</div>
+			</a>
+		</div>
+	</div>
 
 	</main>
 
@@ -372,11 +493,14 @@
 
 
 <!--   *** Footer Section Starts ***   -->
-<section class="page-footer">
+<section id="contactme" class="page-footer">
 	
 	<footer class="footer-contents">
-		<a href="#">Antony</a>
-		<p>Created by <span>Five-Star Tutorials</span> | All rights reserved.</p>
+		<p style="font-weight: bold;">Contact Me : </p>
+		<p>
+			<i class="fa fa-envelope" aria-hidden="true"></i> <span style="margin-left: 10px; margin-right: 20px;">sonalivedaraj@gmail.com </span> | 
+			<i class="fa fa-phone" style="margin-left: 20px;"></i> <span style="margin-left: 10px;">+1 (682)-374-6951 </span>
+		</p>
 	</footer>
 	
 </section>
@@ -386,6 +510,16 @@
 
 </div>
 <!--   *** Website Container Ends ***   -->
+
+<!-- modal popups - begin
+	            ============================================================= -->
+				<div id="m1" class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+					...
+				  </div>
+
+
+
+
 
 
 
