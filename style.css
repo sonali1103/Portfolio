@@ -512,6 +512,7 @@ button.stroke, .button.stroke {
 .about .about-desc{
 	flex-basis: 65%;
 	margin-left: 3%;
+	margin-top: -3%;
 }
 .about .about-image::before{
 	position: absolute;
@@ -555,7 +556,7 @@ button.stroke, .button.stroke {
 	color: var(--links-clr);
 }
 .about .about-desc h2{
-	margin: 10px 0px;
+	margin: 10px 0px 20px 0px;
 	font-size: 32px;
 	color: var(--primary-clr);
 	text-transform: uppercase;
@@ -652,6 +653,11 @@ button.stroke, .button.stroke {
 	color: var(--links-clr);
 	margin-top: 50px;
 }
+
+.plain-link {
+  color: inherit; 
+}
+
  /* .services-container .service-box::after{
 	position: absolute;
 	content: '';
